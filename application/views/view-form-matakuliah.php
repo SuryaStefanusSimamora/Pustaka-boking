@@ -4,9 +4,9 @@
 </head>
 
 <body>
+    <?php echo validation_errors(); ?>
     <center>
-        <form action="<?= base_url('matakuliah/cetak'); ?>"
-method="post">
+        <form action="<?= base_url('matakuliah/cetak'); ?>"method="post">
             <table>
                 <tr>
                     <th colspan="3">
@@ -48,6 +48,8 @@ method="post">
                 <tr>
                 <td colspan="3" align="center">
                 <input type="submit" value="Submit">
+                <td colspan="3" align="center">
+                <input type="submit" value="Cancel">
  </td>
  </tr>
  </table>

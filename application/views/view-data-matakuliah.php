@@ -5,6 +5,7 @@
 </head>
 <body>
             <center>
+                <?php echo validation_errors();?>
             <table>
             <tr>
         <th colspan="3">
